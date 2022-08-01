@@ -1,0 +1,17 @@
+
+
+.container{
+    padding: 2rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(00, 00, 00, 0.85);
+    margin-bottom: 0 !important;
+}
+
+.sub-header{
+    padding: 3rem;
+}
+
+.buy-now{
+    margin-right: 1rem;
+}

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ptBr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/88ffdc67b2.js" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="../../styles/global.css">
+
+  <title>LetMeHelp</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16x16.png">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../map-page/index.html">
+        <img src="../../assets/ShortLogo.svg" alt="LetMeHelp">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../about-us/index.html">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              Chats Recentes
+            </a>
+          </li>
+        </ul>
+        <div class="dropdown profile-dropdown">
+          <a class="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="../../assets/DefaultProfilePictureCircle.png" alt="Foto de perfil" class="profile-picture">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="../user-account/index.html"><i class="far fa-user"></i> Minha Conta</a></li>
+            <li><a class="dropdown-item" href="../favorites/index.html"><i class="far fa-heart"></i> Favoritos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="../login/index.html"><i class="fas fa-sign-out-alt"></i> Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Chats Recents</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <hr>
+    <div class="offcanvas-body">
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+      <a href="../professional-acount/index.html" class="recent-chat-card">
+        <div class="card mb-4 bg-light" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../assets/DefaultProfilePicture.svg" class="img-fluid card-profile-picture" alt="Foto de perfil do psicólogo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Armando Augusto</h5>
+                <br><br>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>      
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Atenção:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Você possui apenas mais <b>5</b> tokens de consultas pockets.</p>
+          <p>Ao realizar uma primeira consulta gratuíta você irá gastar um.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal">Voltar</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Tudo Certo!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Atenção:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Esta função ainda não foi implementada.</p>
+          <p>Aguarde até uma proxima atualização.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-target="#exampleModal">Okay, compreendo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="profile-container container">
+    <div class="content">
+      <div class="header-container">
+        <img src="../../assets/header.jpg" alt="" class="container header-image">
+        <div class="infos">
+          <img src="../../assets/DefaultProfilePicture.svg" alt="Foto de Perfil do Psicólogo" class="profile-container-picture">
+          <p class="profile-container-name">Armando Augusto</p>
+            <p class="profile-container-contact-infos">Você nunca entrou em contato com este psicólogo.</p>
+        </div>
+      </div> 
+      <div class="description">
+        <p class="description-title">Descrição:</p>
+        <p class="description-text">Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo -- Descrição escrita pelo psicólogo</p>
+      </div>
+      <div class="contact-container">
+        <a class="btn btn-primary contact" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar em contato</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>

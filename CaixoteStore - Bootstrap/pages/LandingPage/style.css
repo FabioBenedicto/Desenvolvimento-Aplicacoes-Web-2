@@ -1,0 +1,51 @@
+#landing {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #FFFFFF;
+  background: no-repeat url(../../images/background.webp);
+  background-size: cover;
+  width: 100vw
+}
+
+.landing-content {
+  gap: 4em;
+}
+
+.landing-button {
+  height: 5em ;
+  border: none !important;  
+  transition: background-color 0.5s !important;
+}
+
+.button-to-products {
+  background: #96102d !important;
+  margin-bottom: 2em;
+}
+
+.button-to-products:hover {
+  background: #ac221d !important;
+}
+
+.button-to-login {
+  background: #743a21 !important;
+}
+
+.button-to-login:hover {
+  background: #9c4630 !important;
+}
+
+.buttons-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container {
+  background-color: transparent !important;
+}

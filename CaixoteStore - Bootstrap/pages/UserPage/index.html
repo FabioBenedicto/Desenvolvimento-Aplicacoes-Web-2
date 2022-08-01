@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="../../style/global.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicons/favicon-32x32.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <title>Caixote-Store</title>
+</head>
+<body>
+    <div class="container-fluid page-container page-background">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/pages/LandingPage/index.html">
+                    <img src="https://cdn.pixabay.com/photo/2014/04/03/11/07/crate-311771_960_720.png" alt="" width="30"
+                        height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../LandingPage/index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Products/index.html">Produtos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Conta
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item active" disabled="disabled" href="../UserPage/index.html">Minha Conta</a></li>
+                                <li>
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../Login/index.html">Login / Criar Conta</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Digite aqui..." aria-label="Search">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container flex-column justify-content-center">
+            <div class="sub-header">
+                <div class="display-1 name">Minha Conta</div>
+                <div class="subtitle">Veja suas informações e dados</div>
+                <hr class="name">
+            </div>
+            <div class="d-flex bg-light">
+
+                <div class="d-flex bg-light client-informations">
+                    <ul class="nav flex-column client-informations-content">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" data-bs-toggle="collapse" href="#collapsed-purchases" role="button" aria-expanded="true" aria-controls="collapsed-purchases" id="headingOne">
+                                <img src="../../images/icons/box-open-solid.svg" alt="Sacola" class="menu-icon">
+                                Minhas Compras
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" data-bs-toggle="collapse" href="#collapse-sidebar" role="button" aria-expanded="true" aria-controls="collapse-sidebar" id="headingTwo">
+                                <img src="../../images/icons/cogs-solid.svg" alt="Engrenagens" class="menu-icon">
+                                Configurações
+                                <img src="../../images/icons/down-arrow.png" alt="Seta para baixo" class="div-img">
+                            </a>
+                            <div class="collapse" id="collapse-sidebar">
+                                <a class="nav-link text-dark account-information-colapsed" data-bs-toggle="collapse" href="#collapsed-data" role="button" aria-expanded="true" aria-controls="collapse-sidebar">Meus Dados</a>
+                                <a class="nav-link text-dark account-information-colapsed" data-bs-toggle="collapse" href="#collapsed-security" role="button" aria-expanded="true" aria-controls="collapse-sidebar">Segurança</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="my-data-content accordion-collapse collapse show" id="collapsed-purchases" aria-labelledby="headingOne">
+                    <p class="informations-title">Minhas Compras:</p>
+                    <div class="d-flex purchases-informations">
+                        <div class="left-content">
+                            <img src="https://i.pinimg.com/originals/1e/6a/e3/1e6ae35eef01deb6ab4a384a8e6fa709.png" alt="AirPods" style="height: 5em;">
+                            <p class="informations-label">Apple AirPods - Branco</p>
+                        </div>
+                        <p class="informations-content">R$ 929,90</p>
+                    </div>
+                    <div class="d-flex purchases-informations">
+                        <div class="left-content">
+                            <img src="https://i.pinimg.com/originals/1e/6a/e3/1e6ae35eef01deb6ab4a384a8e6fa709.png" alt="AirPods" style="height: 5em;">
+                            <p class="informations-label">Apple AirPods - Branco</p>
+                        </div>
+                        <p class="informations-content">R$ 929,90</p>
+                    </div>
+                    <div class="d-flex purchases-informations">
+                        <div class="left-content">
+                            <img src="https://i.pinimg.com/originals/1e/6a/e3/1e6ae35eef01deb6ab4a384a8e6fa709.png" alt="AirPods" style="height: 5em;">
+                            <p class="informations-label">Apple AirPods - Branco</p>
+                        </div>
+                        <p class="informations-content">R$ 929,90</p>
+                    </div>
+                    <div class="d-flex purchases-informations">
+                        <div class="left-content">
+                            <img src="https://i.pinimg.com/originals/1e/6a/e3/1e6ae35eef01deb6ab4a384a8e6fa709.png" alt="AirPods" style="height: 5em;">
+                            <p class="informations-label">Apple AirPods - Branco</p>
+                        </div>
+                        <p class="informations-content">R$ 929,90</p>
+                    </div>
+                    <div class="d-flex purchases-informations">
+                        <div class="left-content">
+                            <img src="https://i.pinimg.com/originals/1e/6a/e3/1e6ae35eef01deb6ab4a384a8e6fa709.png" alt="AirPods" style="height: 5em;">
+                            <p class="informations-label">Apple AirPods - Branco</p>
+                        </div>
+                        <p class="informations-content">R$ 929,90</p>
+                    </div>
+                    <div class="d-flex purchases-informations">
+                        <div class="left-content">
+                            <img src="https://i.pinimg.com/originals/1e/6a/e3/1e6ae35eef01deb6ab4a384a8e6fa709.png" alt="AirPods" style="height: 5em;">
+                            <p class="informations-label">Apple AirPods - Branco</p>
+                        </div>
+                        <p class="informations-content">R$ 929,90</p>
+                    </div>
+                </div>
+
+                <div class="my-data-content accordion-collapse collapse" id="collapsed-data" aria-labelledby="headingTwo">
+                    <p class="informations-title">Minha Conta:</p>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">Endereço de Email:</p>
+                      <p class="informations-content">seuemail@gmail.com</p>
+                    </div>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">Endereço:</p>
+                      <p class="informations-content">Rua endereço</p>
+                    </div>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">Endereço 2:</p>
+                      <p class="informations-content">Rua endereço</p>
+                    </div>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">Cidade:</p>
+                      <p class="informations-content">Aquela lá</p>
+                    </div>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">Estado:</p>
+                      <p class="informations-content">Um aí</p>
+                    </div>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">CEP:</p>
+                      <p class="informations-content">222</p>
+                    </div>
+                </div>
+
+                <div class="my-data-content accordion-collapse collapse" id="collapsed-security">
+                    <p class="informations-title">Segurança:</p>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">Senha:</p>
+                      <p class="informations-content">55555</p>
+                    </div>
+                    <div class="d-flex acount-informations">
+                      <p class="informations-label">Verificação de duas etapas:</p>
+                      <p class="informations-content text-danger">Desativado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center text-lg-start bg-dark ">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 text-footer">
+                <div class="me-5 d-none d-lg-block">
+                    <span>Se conecte conosco:</span>
+                </div>
+            </section>
+            <section class="name">
+                <div class="container text-center text-md-start mt-5 footer">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Caixote's
+                            </h6>
+                            <p>
+                                A empresa de vendas e empreendimento
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Produtos
+                            </h6>
+                            <p>
+                                <a href="../LandingPage/index.html" class="text-reset">Caixote</a>
+                            </p>
+                            <p>
+                                ..
+                            </p>
+                            <p>
+                                ..
+                            </p>
+                            <p>
+                                ..
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Links úteis
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Menu</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Entrar</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Minha Conta</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Produtos</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contato
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Rua aquela numero tal </p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                caixotestore@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>numero ficticio</p>
+                            <p><i class="fas fa-print me-3"></i>numero ficticio</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); height: 5em;">
+            </div>
+          </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+body{
+  background-color: whitesmoke;
+  width: calc(100vw - 17px);
+}
+
+body, button, textarea{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.container {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 2rem;
+  background-color: rgba(00, 00, 00, 0.85);
+  margin-bottom: 2rem;
+}
+
+.navbar{
+  background-image: url(../images/background.webp);
+}
+
+.footer {
+  background-image: url(../images/background.webp);
+  color:white;
+}
+
+.name {
+  color: whitesmoke;
+}
+
+.page-container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.page-background, .text-footer {
+  background:
+      linear-gradient(
+      rgba(0,0,0,.5),rgba(0,0,0,.5)
+      ),
+      url(../images/background.webp);
+}
+
+.subtitle {
+  color: 	rgb(179, 179, 179)
+}
+
+.text-footer {
+  border-top: .1em solid white;
+  color: whitesmoke;
+}
+
+a[disabled="disabled"] {
+  pointer-events: none;
+}
